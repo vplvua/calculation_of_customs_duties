@@ -1,0 +1,34 @@
+html,
+body {
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--background-color);
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;  
+}
+
+:root {
+    --background-color: #fff;
+    --interface-color: #0E161B;
+    color: var(--interface-color);
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.wrapper {
+    max-width: 940px;
+    margin: auto;
+}
